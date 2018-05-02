@@ -15,4 +15,4 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - ./data/solr:/opt/solr                              # volume for data
     environment:
-      - SOLR_VERSION=7.2
+      - SOLR_VERSION=7.3
